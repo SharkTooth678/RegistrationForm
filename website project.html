@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Registration website</title>
+<style>
+
+.wrapper {
+    background-color: white;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+  }
+  .form-row {
+    display: flex;
+    padding: .5em;
+  }
+  .form-row > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+  }
+  .form-row > input {
+    flex: 2;
+  }
+  .form-row > input,
+  .form-row > button {
+    padding: .5em;
+  }
+  .form-row > button {
+   background: white;
+   color: white;
+   border: 0;
+  }
+
+
+
+      body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background: linear-gradient(to top right, rgb(151, 203, 255), rgb(182, 127, 255));
+    }
+
+    
+
+
+    .form-container{
+      padding: 15px;
+        font-size: 15px;
+        display: grid;
+        grid-template-columns: auto auto  ;
+    }
+
+
+    .container0{
+      font-size: 24px;
+        width: 500px;
+    height: 400px;
+    padding: 30px;
+    border: 10px solid white ;
+    margin: 20px auto;
+    background-color: white;
+    }
+
+    p{
+      font-size: 17px;
+      padding: 6px;
+    }
+
+   
+</style> 
+
+
+</head>
+<body>
+  
+
+ 
+
+    <div class = "container0">
+       Registration
+      
+       <form>
+        <div class = "form-container">
+
+      
+
+       <div class="conatiner1" >
+        <ul class="wrapper">
+          <li class="form-row">
+            <label for="Full Name"> Full Name</label></br>
+          
+          </li>
+          <li>
+            <input type="text" id="name">
+          </li>
+          <li class="form-row">
+            <label for="Email">Email</label>
+           
+          </li>
+          <li>
+            <input type="text" id="email">
+          </li>
+          <li class="form-row">
+            <label for="Password">Password</label>
+          </li>
+          <li>
+            <input type="password" id="password">
+          </li>
+        </ul>
+       </div>
+
+      
+      <div class="conatiner2" >
+        <ul class="wrapper">
+          <li class="form-row">
+            <label for="Username">Username</label></br>
+          
+          </li>
+          <li>
+            <input type="text" id="Username">
+          </li>
+          <li class="form-row">
+            <label for="Email">Email</label>
+           
+          </li>
+          <li>
+            <input type="text" id="email">
+          </li>
+          <li class="form-row">
+            <label for="Password">Password</label>
+          </li>
+          <li>
+            <input type="password" id="password">
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+      
+      <p> Gender </p>
+
+      <div class="contianer3">
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" value="prefer not to say" id="prefer not to say">
+        <label for="Prefer not to say">Prefer not to say</label> 
+        
+      </div>
+
+    <button>
+      <img src = "Register Button.png" alt = "Register" height="42px" width="500px"  />
+    </button>
+
+    </form>
+
+</div>
+    
+</body>
+
+</html>
+
